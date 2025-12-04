@@ -1,0 +1,77 @@
+/* General Setup */
+body {
+    font-family: sans-serif;
+    background-color: #a27878;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    min-height: 100vh;       /* Full screen height */
+    margin: 0;
+}
+
+/* The Container holding the 3 cards */
+.pricing-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+    background-color: #bfd4b9;
+    border-radius: 8px;
+    width: 300px;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    /* Internal Card Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Fonts and Text */
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.price span {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+/* Button Styling */
+button {
+    background-color: #9b1717; /* Red color */
+    color: rgb(185, 148, 148);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c22222; /* Darker red on hover */
+}
